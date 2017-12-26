@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97040" started-at="2017-12-25T12:19:42Z" finished-at="2017-12-25T12:21:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97040" started-at="2017-12-25T12:19:42Z" finished-at="2017-12-25T12:21:19Z">
+      <class name="testcases.CreateCompleteBL">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.CreateCompleteBL@3087f9]" name="setup" is-config="true" duration-ms="18266" started-at="2017-12-25T17:49:42Z" finished-at="2017-12-25T17:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ApplicationLogin()[pri:1, instance:testcases.CreateCompleteBL@3087f9]" name="ApplicationLogin" duration-ms="77822" started-at="2017-12-25T17:50:01Z" finished-at="2017-12-25T17:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationLogin -->
+        <test-method status="PASS" signature="CloseBrowswer(org.testng.ITestResult)[pri:0, instance:testcases.CreateCompleteBL@3087f9]" name="CloseBrowswer" is-config="true" duration-ms="929" started-at="2017-12-25T17:51:18Z" finished-at="2017-12-25T17:51:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ApplicationLogin status=SUCCESS method=CreateCompleteBL.ApplicationLogin()[pri:1, instance:testcases.CreateCompleteBL@3087f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowswer -->
+      </class> <!-- testcases.CreateCompleteBL -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

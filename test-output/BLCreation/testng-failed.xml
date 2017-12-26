@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BLCreation]">
+  <test name="Smokescenario(failed)">
+    <classes>
+      <class name="testcases.CreateCompleteBL">
+        <methods>
+          <include name="ApplicationLogin"/>
+          <include name="createBL"/>
+          <include name="CreateUpdateBLTest"/>
+        </methods>
+      </class> <!-- testcases.CreateCompleteBL -->
+      <class name="testcases.VerifyLogin">
+        <methods>
+          <include name="ApplicationLogin"/>
+          <include name="createBL"/>
+        </methods>
+      </class> <!-- testcases.VerifyLogin -->
+      <class name="testcases.CreateDraftBL">
+        <methods>
+          <include name="ApplicationLogin"/>
+          <include name="CreateUpdateBLTest"/>
+          <include name="createBL"/>
+        </methods>
+      </class> <!-- testcases.CreateDraftBL -->
+    </classes>
+  </test> <!-- Smokescenario(failed) -->
+</suite> <!-- Failed suite [BLCreation] -->
